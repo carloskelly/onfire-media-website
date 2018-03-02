@@ -1,0 +1,607 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html,
+body {
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 20px;
+    font-family: Lato;
+    width:100%;
+    overflow-x:hidden;
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+/*******  index  *******/
+
+/*******  01 reusables  *******/
+/*******  02 navbar  *******/
+/*******  03 jumbrotron  *******/
+/*******  04 what we do  *******/
+/*******  05 social  *******/
+/*******  06 who we are  *******/
+/*******  07 projects  *******/
+/*******  08 clients  *******/
+/*******  09 contact form  *******/
+/*******  10 footer  *******/
+/*******  11 overlay  *******/
+
+
+
+/*******  01 reusables  *******/
+
+#topcontrol {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+    font-size: 40px!important;
+}
+.social h2, .section-form h2, .projects h2, .section-testimonials h2 {
+    color: #fff;
+}
+.mainhr {
+    /* Gradient transparent - color - transparent */
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #999, rgba(0, 0, 0, 0));
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 90%;
+
+}
+
+.social hr, .section-form hr, .projects hr, .section-testimonials hr{
+    /*border: 1px solid #fff;*/
+    /* Gradient transparent - color - transparent */
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.btn-ghost {
+    font-size: 18px;
+   margin: 20px;
+    
+}
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;   
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    background-color: rgba(255, 255, 255, 0.76);
+    border: 2px solid #fff;
+    color: #eb4223;
+        
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: rgba(235, 66, 35, 0.8);
+}
+    
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 2px solid #eb4223;
+    color:  #fff;       
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #fff;
+}
+/*******  02 navbar  *******/
+
+.navbar-fixed-top {
+  top: 30px;
+}
+.phone-area {
+    height: 30px;
+    background-color: #ed4223;
+}
+.phone-area a {
+    color: #fff;
+    float: right;
+    margin-right: 50px;
+}
+.phone-area a:hover {
+    text-decoration: none;
+}
+
+.first-phone {
+    color: #fff;
+    padding-top: 6px;
+    padding-right: 5px;
+}
+.logo {
+   
+    height: 50px;
+    width: auto;    
+}
+
+.navbar-right li a{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-top: 15px;
+    color: #333!important;
+}
+.navbar-right li a:hover {
+    color: #eb4223!important;
+}
+.navbar {
+    position: absolute;
+    height: 80px;
+    background-color: #fff;
+    border-color: #fff;
+    
+}
+.navbar-toggle {
+    margin-top: 23px!important;
+    border: none;
+    
+}
+.navbar-header {
+    margin-bottom: 15px;
+}
+
+/*******  03 jumbrotron  *******/
+
+.jumbotron {
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpic.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpic.jpg);
+    height:100vh;
+    width:auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 0px;  
+}
+
+.jumbotron h1 {
+    color: #fff;
+    margin-top: 60%!important;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;   
+}
+.item {
+    margin-top: 40%!important;
+    height: auto;
+    width: 100%;
+    float: right;
+}
+#owl-slideshow .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/*******  04 what we do  *******/
+
+.middlehr {
+    margin-top: 50px;   
+}
+.skills-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.whatwedo .btn-ghost  {
+    border: 2px solid #eb4223;       
+}
+.om-mob {
+    display: block;
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.om-mob1 {
+    width: 85%;
+    margin-top: 40px;
+}
+.om-mob2 {
+    width: 100%;
+    margin-top: 70px;
+}
+.befolio-icon-text {
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.befolio-text-block .link-text {
+    background-color: #ed4223!important;
+}
+.befolio-text-block .link-text:hover {
+    opacity: 0.8;
+}
+
+.befolio-tabs.classic {
+    border-color: #999!important;
+}
+.befolio-accordion .panel-wrap.default {
+    border-color: #999!important;
+}
+.befolio-accordion .panel-wrap.default.active {
+    border-color: #eb4223!important;
+}
+.befolio-skill-block .skill-line .skill-run {
+    background-color: #eb4223!important;
+}
+.befolio-icon-text .icon .fa {
+    color: #eb4223!important;
+}
+
+
+/*******  05 social  *******/
+
+.social {
+    background-color: #34495e;
+}
+.socialicons {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 100px;
+    width: auto;
+}
+.social-col {
+    padding-bottom: 30px;
+}
+
+
+
+/*******  06 who we are  *******/
+
+.whoweare {
+    background-color: #f4f4f4;
+}
+.who-we-are-panel {
+    padding-top: 100px;
+
+}
+
+
+
+/*******  07 projects  *******/
+#projects {
+    background: #2c3e50;
+}
+.project-item {
+    padding: 5px;
+}
+.thumbnails {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.project-img {
+    width: 100%;
+}
+
+
+
+/*******  08 clients  *******/
+
+.section-testimonials {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/mainpic.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/mainpic.jpg);
+    background-size: cover;
+    color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px 40px 100px 40px;
+}
+.section-testimonials img {
+    margin-top: 20px;
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    float: left;
+    display: block;
+    
+}
+.client-name {
+    padding-top: 30px;
+    margin-left: 70px;
+    font-style: italic;
+    font-weight: 200;
+    
+}
+.section-testimonials p {
+    font-size: 25px;
+    text-align: left;   
+}
+.fa-quote-left {
+    margin-top: 50px;
+    text-align: left;
+    display: block!important;
+}
+
+/*******  09 contact form  *******/
+
+.befolio-contact-form input {
+    border-color: #fff!important;
+    }
+
+.befolio-contact-form textarea {
+    border-color: #fff!important;
+} 
+
+.befolio-contact-form input[type="submit"] {
+    background-color: #ed4223!important;
+    
+    
+}
+.befolio-contact-form input {
+    font-size: 20px!important;
+}
+.befolio-contact-form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+.befolio-contact-form .name:before {
+    font-size: 20px;
+}
+.section-form .container-fluid {
+    margin-top: 0px;
+}
+.section-form {
+    background-color: #222;
+    background-image: url(../images/map-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*******  10 footer  *******/
+
+footer {
+    text-align: left;
+}
+
+.lb-outerContainer {
+    background-color: #2c3e50!important;
+}
+
+.wpc-contant li .fa {
+      color: #eb4223!important;
+    font-size: 25px!important;
+}
+
+.wpc-footer-copyright a {
+    color: #eb4223;
+}
+.wpc-footer {
+    background-color: #2c3e50;
+}
+.footer-p {
+    font: 400 13px 'Noto Sans',sans-serif;
+    color: #ddd;
+    border-bottom: 1px solid rgba(233,233,233,0.1);
+    padding-bottom: 17px;
+    margin-bottom: 15px;
+    letter-spacing: .4px;
+}
+.wpc-contant a {
+    color: #ddd!important;
+}
+.wpc-contant a:hover {
+    text-decoration: none;
+}
+.post-info-content span {
+    color: #ddd;
+}
+.quick-links a {
+    text-decoration: none;
+    font: 400 14px Lato,sans-serif;
+    color: #d0cece;
+    line-height: 26px;
+    letter-spacing: 1.1px;
+    
+}
+.quick-links li {
+    margin-bottom: 15px;
+}
+.quick-links {
+    margin-left: 50px;
+}
+
+/*******  11 overlay  *******/
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  display: inline-block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/*
+.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+
+*/

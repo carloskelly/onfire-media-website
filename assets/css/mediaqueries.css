@@ -1,0 +1,378 @@
+/* 
+
+Mediaqueries Contents: 
+
+01. Global
+02. Notebook
+03. Tablet
+04. Small Device
+05. Mobile Device
+
+
+*/
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 01. Global Responsive Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 02. Notebook Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 1280px) {
+	.om-mob2 {
+        margin-top: 110px;
+    }
+    .jumbotron h1 {
+        margin-top: 180px;
+    }
+    .item {
+        margin-top: 160px;
+    }
+    .info {
+        margin-top: 60px!important;
+    }
+    
+/* End of Notebook Mediaqueries */
+}
+
+
+@media screen and (max-width: 1200px) {
+    .thumbnails {
+        padding-left: 40px;
+    }
+    .jumbotron h1 {
+        margin-top: 180px!important;
+    }
+    .jumbotron, .section-testimonials {
+        background-attachment: scroll;
+    }
+    .mockup {
+        margin-top: 50px;
+    }
+    .om-mob {
+        margin-top: 40px;
+    }
+    .om-mob1 {
+        margin-top: 50px;
+    }
+/* End of Notebook Mediaqueries */
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 03. Large Tablet Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 990px) {
+    .logo {
+        margin-left: -70px;
+    }
+    .navbar-right {
+        margin-right: -70px;
+    }
+    .jumbotron h1 {
+        margin-top: 120px;
+    }
+    .item {
+        margin-top: 30px;
+    }
+    .btn-ghost {
+        display: none;
+    }
+    .jumbotron h1 {
+        margin-top: 100px!important;
+    }
+    .owl-carousel {
+        width: 60%!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mockup {
+        margin-top: -70px;
+    }
+    .text {
+        padding: 40px 80px;
+    }
+    .section-testimonials .col-md-4 {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+     .fa-quote-left {
+        margin-top: 100px;
+    }
+    .footer-p {
+        padding-left: 0px;
+    }
+    .om-mob {
+        display: none;
+    }
+     .om-mob1 {
+        margin-top: 65px;
+    }
+    
+     .om-mob2 {
+        width: 70%;
+         margin-top: 20px; 
+    }
+    .thumbnails {
+        padding-left: 15px;
+    }
+    .wpc-title-w {
+        text-align: left;
+    }
+    .quick-links {
+       margin-left: 0px;
+    }
+/* End of Large Tablet Mediaqueries */
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        margin-left: 0px;
+    }
+    .navbar-right {
+        margin-right: 0px;
+    }
+    
+    
+}
+@media screen and (max-width: 870px) {
+    .logo {
+        margin-left: -30px;
+    }
+    .navbar-right {
+        margin-right: -20px;
+    }
+    
+    
+}
+@media screen and (max-width: 820px) {
+   .logo {
+        margin-left: -10px;
+    }
+    .navbar-right {
+        margin-right: -20px;
+    }
+    .jumbotron h1 {
+        margin-top: 100px!important;
+    }
+    
+    
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 03. Tablet Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+    
+    .jumbotron h1 {
+        margin-top: 250px!important;
+    }
+    .logo {
+        margin-left: -10px
+    }
+    .navbar-default .navbar-collapse {
+        border-color: #eb4223;
+        
+    }
+    .navbar-collapse {
+    
+        background-color: #fff;
+    }
+    .nav>li>a {
+        padding-right: 30px;
+    }
+    .img-responsive {
+        margin-bottom: 10px;
+    }
+    .hovereffect .overlay {
+         height: 97.5%;   
+    }
+    .om-mob {
+        display: none;
+    }
+    .om-mob1 {
+        display: none;
+    }
+    .om-mob2 {
+        display: none;
+        /*width: 60%;
+        margin-top: 20px;*/
+    }
+    .section-testimonials .col-md-4 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #topcontrol {
+    margin-right: 0px;
+    margin-bottom: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+.info {
+        margin-top: 150px!important;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .jumbotron {
+        height: 100%;
+    }
+    .jumbotron h1 {
+        margin-top: 250px!important;
+    }
+    .btn-ghost-h1 {
+        margin-bottom: 140px;
+    }
+    .socialicons {
+        height: 80px;
+        width: auto;
+    }    
+    
+    .owl-carousel {
+        display: none!important;
+    }
+    
+    .btn-ghost {
+        display: inline-block;
+    }
+    
+      
+.img-responsive {
+        margin-bottom: 10px;
+    }
+     .hovereffect .overlay {
+         height: 97%;   
+    }
+    .fa-quote-left {
+        margin-top: 100px;
+    }
+
+
+.who-we-are-panel {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+.text {
+    padding: 20px;
+    text-align: justify;
+    }
+    .om-mob2 {
+        margin-top: 40px;
+    }
+        
+
+/* End of Tablet Mediaqueries */
+}
+
+@media screen and (max-width: 600px) {
+     .hovereffect .overlay {
+         height: 97%;   
+    }
+    .info {
+        margin-top: 80px!important;
+    }   
+/* End of Tablet Mediaqueries */   
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 04. Small Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 500px) {
+
+     .socialicons {
+        height: 60px;
+        width: auto;
+    }
+    
+    .jumbotron {
+        background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpicmobile.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpicmobile.jpg); 
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0px; 
+}
+    .section-testimonials {
+         background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpicmobile.jpg);
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/mainpicmobile.jpg); 
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron h1 {
+        margin-top: 180px!important;
+    }
+    
+    
+    .btn-ghost {
+        display: inline-block;
+    }
+    .wpc-footer .wpc-widget {
+        margin-top: 0px;
+    }   
+        .widget_instagram_widget {
+            margin-bottom: 20px;
+    }
+    
+    .wpc-footer .wpc-widget.widget_tag_cloud .tagcloud a:first-child {
+        margin-left: 0px;
+
+    }
+    .hovereffect .overlay {
+         height: 96%;   
+    }
+    .info {
+        margin-top: 50px!important;
+    }
+    .section-testimonials .col-md-4 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .phone-area a {
+        margin-right: 30px;
+    }
+    
+    .om-mob1, .om-mob2 {
+        display: none;
+    }
+/* End of Small Device Mediaqueries */
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+/* 05. Mobile Device Styles */
+/* ----------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 400px) {
+    .img-responsive {
+        margin-bottom: 10px;
+    }
+    .hovereffect .overlay {
+         height: 95%;   
+    }
+    .fa-quote-left {
+        margin-top: 100px;
+    }
+   
+    .section-testimonials .col-md-4 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+.jumbotron h1 {
+        margin-top: 130px!important;
+    }
+
+
+/* End of Mobile Device Mediaqueries */
+}
+
