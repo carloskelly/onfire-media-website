@@ -1,11 +1,9 @@
-# Project Title
-
-Onfire Media
+# Onfire Media
 
 
-## Project
 
-Web Development and Design Website
+
+## Web Development and Design Website
 
 link to site - [Onfire Media](http://www.onfiremedia.co.uk)
 
